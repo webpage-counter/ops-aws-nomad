@@ -21,6 +21,10 @@ module "dc1" {
   token             = var.token
 }
 
+output "dnsname" {
+  value = module.dc1.lb
+}
+
 output "ami" {
   value = module.dc1.ami
 }
