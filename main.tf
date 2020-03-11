@@ -21,7 +21,7 @@ module "dc1" {
   token             = var.token
 }
 
-output "dnsname" {
+output "UI" {
   value = module.dc1.lb
 }
 
