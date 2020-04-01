@@ -36,9 +36,3 @@ output "dcname" {
 output "IP_client" {
   value = module.dc1.IP_client
 }
-
-
-output "data_rendered" {
-  value = module.dc1.data_rendered
-}
-
